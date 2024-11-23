@@ -1,0 +1,20 @@
+body { 
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.First-block  {
+    
+    display: block;
+    background-color: aquamarine;
+    font-size:x-large;
+    height: 30vh;
+    padding: 15;
+}
+
+.header { 
+    margin: 0;
+    justify-content space-between;
+    height 50px;
+    line-height 50px;
+}    
