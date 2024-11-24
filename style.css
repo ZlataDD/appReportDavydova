@@ -1,0 +1,31 @@
+.header {
+    margin: 0 0;
+    background-color: aquamarine;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.First-block {
+display:block;
+padding-left: 35px;
+padding-bottom: 100px;
+padding-top:  20px;
+
+
+}
+
+.First-block img {
+    float: right;
+    height: 30vh;
+    padding-right: 100px;
+
+
+
+}
+
+.lab-button {
+    
+    color-scheme: aqua;
+
+
+}
