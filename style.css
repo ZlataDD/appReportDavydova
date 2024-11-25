@@ -45,13 +45,6 @@ margin: 0;
     
     }
 
-.button {
-    position: absolute;
-    top:50%;
-    background-color:#0a0a23;
-    color: #fff;
-    
-}
 
 .lab-button {
     background-color:rgb(231, 212, 187);
@@ -64,5 +57,3 @@ a {
     margin-right: 20px;
     margin-right: 20px;
 }
-
-.nav-list
