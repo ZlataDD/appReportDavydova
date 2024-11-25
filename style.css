@@ -1,8 +1,14 @@
+
+.body {
+margin: 0;
+
+}
+
 .header {
-    margin:0;
-    background-color: moccasin;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(75, 48, 8, 0.568);
+    
 }
 
 .First-block {
@@ -11,19 +17,52 @@
     padding-bottom: 70px;
     padding-top: 15px;
     font-weight: 600;
+    line-height: 30px;
+    margin-top: 0;
+
 }
 
 .First-block img {
     float: right;
     height: 25vh;
-    padding-right: 100px;
+    padding-right: 60px;
+    padding-top: 30px;
 
+}
+
+.line::after {
+    content:"";
+    display: block;
+    height: 3px;
+    background-color: rgb(102, 78, 26);
+
+}
+.line-1::after {
+    content:"";
+    display: block;
+    height: 3px;
+    background-color: rgb(102, 78, 26);
+    
+    }
+
+.button {
+    position: absolute;
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    
 }
 
 .lab-button {
-    background-color: aquamarine;
-    display: block;
+    background-color:rgb(231, 212, 187);
     padding-top: 20px;
-    padding-bottom: 380px;
-   padding-left: 25px;
+    padding-bottom: 21px;
+    padding-left: 60px;
 }
+
+a {
+    margin-right: 20px;
+    margin-right: 20px;
+}
+
+.nav-list
