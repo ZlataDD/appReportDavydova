@@ -59,10 +59,12 @@ a {
 }
 
 .box {
-width: 200px;
-height: 100px;
-margin-top: 40px;
-margin-bottom: 20px;
-background-color:rgb(102, 78, 26);
-float: right;
+    width: 900px;
+    height: 470px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color:rgb(145, 132, 104);
+    float: right;
+
 }
+
