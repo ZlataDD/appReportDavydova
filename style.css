@@ -7,7 +7,7 @@ margin: 0;
 .header {
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgba(75, 48, 8, 0.568);
+    background-color: rgba(145, 158, 147, 0.568);
     
 }
 
@@ -45,7 +45,6 @@ margin: 0;
     
     }
 
-
 .lab-button {
     background-color:rgb(231, 212, 187);
     padding-top: 20px;
@@ -53,18 +52,29 @@ margin: 0;
     padding-left: 60px;
 }
 
+
 a {
     margin-right: 20px;
     margin-right: 20px;
 }
 
-.box {
-    width: 900px;
-    height: 470px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    background-color:rgb(145, 132, 104);
-    float: right;
 
+.box {
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 900px;
+    height: 450px;
+    background-color:rgb(231, 212, 187);
+    float: right;
+    border-style: dotted;
+    border-color: rgb(41, 30, 4);;
 }
 
+.side-bar {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    background-color: rgb(210, 228, 210)  
+    
+      
+}
