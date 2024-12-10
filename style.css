@@ -7,7 +7,7 @@ margin: 0;
 .header {
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgba(145, 158, 147, 0.568);
+    background-color: hwb(34 60% 13%);
     
 }
 
@@ -34,22 +34,23 @@ margin: 0;
     content:"";
     display: block;
     height: 3px;
-    background-color: rgb(102, 78, 26);
+    background-color: rgb(169, 204, 172);
 
 }
 .line-1::after {
     content:"";
     display: block;
     height: 3px;
-    background-color: rgb(102, 78, 26);
+    background-color: rgb(169, 204, 172);
     
     }
 
 .lab-button {
-    background-color:rgb(231, 212, 187);
+    background-color:rgb(217, 224, 208);
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 60px;
+    padding-inline: 120px;
+    display: block;
 }
 
 
@@ -59,22 +60,34 @@ a {
 }
 
 
-.box {
+.text-box {
     margin-top: 20px;
     margin-right: 40px;
     width: 900px;
     height: 450px;
-    background-color:rgb(231, 212, 187);
+    background-color:hwb(34 60% 13%);
     float: right;
-    border-style: dotted;
-    border-color: rgb(41, 30, 4);;
+    border-style: solid;
+    border-color: rgb(169, 204, 172);
+    border-radius: 1pc;
 }
 
-.side-bar {
+.sidebar-1 {
     padding-top: 20px;
     padding-left: 30px;
     padding-bottom: 50px;
-    background-color: rgb(210, 228, 210)  
-    
+    background-color: hwb(34 60% 13%);
+    line-height: 180%;
+    display: none;
+      
+}
+
+.sidebar-1.1 {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    background-color: hwb(34 60% 13%);
+    line-height: 100%;
+    float: right;
       
 }
