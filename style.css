@@ -49,45 +49,43 @@ margin: 0;
     background-color:rgb(217, 224, 208);
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-inline: 120px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
 }
-
+ 
 
 a {
-    margin-right: 20px;
-    margin-right: 20px;
+    margin-right: 0px;
+    margin-right: 0px;
 }
 
 
 .text-box {
-    margin-top: 20px;
-    margin-right: 40px;
-    width: 900px;
-    height: 450px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 950px;
+    height: 500px;
     background-color:hwb(34 60% 13%);
     float: right;
     border-style: solid;
     border-color: rgb(169, 204, 172);
     border-radius: 1pc;
+    display: flex;
 }
 
 .sidebar-1 {
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-bottom: 50px;
-    background-color: hwb(34 60% 13%);
-    line-height: 180%;
-    display: none;
-      
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    background-color: hwb(34 60% 13%);  
+    line-height: 130%;
+    visibility:;
+   
 }
 
-.sidebar-1.1 {
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-bottom: 50px;
-    background-color: hwb(34 60% 13%);
-    line-height: 100%;
-    float: right;
-      
+.sidebar-11-description-btn {
+    padding-left: 470px;
+    position-visibility: text;
 }
