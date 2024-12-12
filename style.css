@@ -45,6 +45,12 @@ margin: 0;
     
     }
 
+
+.main {
+ background-color:hwb(34 60% 13%); 
+}
+
+
 .lab-button {
     background-color:rgb(217, 224, 208);
     padding-top: 20px;
@@ -59,33 +65,42 @@ margin: 0;
 a {
     margin-right: 0px;
     margin-right: 0px;
+    background-color: hwb(34 60% 13%);
 }
 
-
-.text-box {
-    margin-top: 10px;
-    margin-right: 10px;
-    width: 950px;
-    height: 500px;
-    background-color:hwb(34 60% 13%);
-    float: right;
-    border-style: solid;
-    border-color: rgb(169, 204, 172);
-    border-radius: 1pc;
-    display: flex;
-}
 
 .sidebar-1 {
-    padding-top: 15px;
+    padding-top: 40px;
+    padding-bottom: 190px;
     padding-left: 40px;
-    padding-bottom: 30px;
     background-color: hwb(34 60% 13%);  
-    line-height: 130%;
-    visibility:;
+    line-height: 20px;
+    display: block;
    
 }
 
-.sidebar-11-description-btn {
-    padding-left: 470px;
-    position-visibility: text;
+
+.text-box-description {
+    margin-top: 0px;
+    margin-right: 10px;
+    width: 950px;
+    height: 450px;
+    background-color:hwb(34 60% 13%);
+    float: right;
+    display: block;
+
 }
+
+
+.text-box-title {
+    margin-top: 0px;
+    margin-right: 10px;
+    width: 950px;
+    height: 450px;
+    background-color:hwb(34 60% 13%);
+    float: right;
+    display: block; 
+
+}
+
+
