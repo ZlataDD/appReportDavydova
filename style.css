@@ -1,66 +1,154 @@
 
 .body {
 margin: 0;
-
 }
 
 .header {
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
-    background-color: hwb(34 60% 13%);
-    
+    background-color: hwb(34 60% 13%);  
 }
 
 .First-block {
     display:block;
     padding-left: 35px;
-    padding-bottom: 70px;
-    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-top: 10px;
     font-weight: 600;
     line-height: 20px;
     margin-top: 0;
-
 }
 
 .First-block img {
     float: right;
-    height: 25vh;
+    height: 20vh;
     padding-right: 60px;
     padding-top: 10px;
-
 }
 
 .line::after {
     content:"";
     display: block;
     height: 3px;
-    background-color: rgb(169, 204, 172);
-
+    background-color: rgb(54, 43, 18);
 }
 .line-1::after {
     content:"";
     display: block;
     height: 3px;
-    background-color: rgb(169, 204, 172);
-    
-    }
-
+    background-color:  rgb(54, 43, 18);  
+}
 
 .main {
  background-color:hwb(34 60% 13%); 
 }
 
-
-.lab-button {
-    background-color:rgb(217, 224, 208);
-    padding-top: 20px;
-    padding-bottom: 20px;
+.button {
+    background-color:rgba(95, 67, 25, 0.808);
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
+
+.button11 {
+    background-color: hwb(39 36% 19%); 
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.button12 {
+    background-color: hwb(39 36% 19%);  
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    
+  }
+  
+  .button21 {
+    background-color: hwb(39 36% 19%);  
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    
+  }
+
+
+  .button22 {
+    background-color: hwb(39 36% 19%);  
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    
+  }
+
+
+  .button31 {
+    background-color: hwb(39 36% 19%);  
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+   
+  }
+
+  .button32 {
+    background-color: hwb(39 36% 19%);  
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
  
+  }
+
+  .button41 {
+    background-color: hwb(39 36% 19%); 
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    
+  }
+
+  .button42 {
+    background-color: hwb(39 36% 19%); 
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder; 
+  }
 
 a {
     margin-right: 0px;
@@ -68,39 +156,99 @@ a {
     background-color: hwb(34 60% 13%);
 }
 
-
 .sidebar-1 {
-    padding-top: 40px;
-    padding-bottom: 190px;
+    padding-top: 20px;
+    padding-bottom: 0px;
     padding-left: 40px;
     background-color: hwb(34 60% 13%);  
-    line-height: 20px;
-    display: block;
-   
+    line-height: 10px;
+    display: inline-block;
 }
 
-
-.text-box-description {
-    margin-top: 0px;
-    margin-right: 10px;
-    width: 950px;
-    height: 450px;
-    background-color:hwb(34 60% 13%);
-    float: right;
-    display: block;
-
+.btnDescription {
+    background-color: hwb(39 36% 19%);  
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
 }
 
-
-.text-box-title {
-    margin-top: 0px;
-    margin-right: 10px;
-    width: 950px;
-    height: 450px;
-    background-color:hwb(34 60% 13%);
-    float: right;
-    display: block; 
-
+.btnTitle {
+    background-color: hwb(39 36% 19%);  
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
 }
 
+.btnStructure{
+    background-color: hwb(39 36% 19%);  
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+}
 
+.btnHTMLTABLE {
+    background-color: hwb(39 36% 19%);  
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.btnHTMLLIST {
+    background-color: hwb(39 36% 19%);  
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.btnHTMLIMAGE {
+    background-color: hwb(39 36% 19%);  
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.btnSummery {
+    background-color: hwb(39 36% 19%);  
+    border-radius: 20px;
+    font-size: medium;
+    min-height: 50px;
+    min-width: 120px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.btnDescription1 {
+display: inline;;
+}
