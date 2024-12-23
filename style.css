@@ -60,9 +60,10 @@ margin: 0;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black;
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+    border-width: 0.45em;
 }
 
 .button12 {
@@ -71,9 +72,10 @@ margin: 0;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black;
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+    border-width: 0.45em;
     
   }
   
@@ -83,9 +85,10 @@ margin: 0;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black;
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+    border-width: 0.45em;
     
   }
 
@@ -96,9 +99,10 @@ margin: 0;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black; 
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+    border-width: 0.45em;
     
   }
 
@@ -109,9 +113,10 @@ margin: 0;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black;
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+    border-width: 0.45em;
    
   }
 
@@ -121,9 +126,10 @@ margin: 0;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black; 
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+    border-width: 0.45em;
  
   }
 
@@ -133,10 +139,10 @@ margin: 0;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black;
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    
+    border-width: 0.45em; 
   }
 
   .button42 {
@@ -145,9 +151,10 @@ margin: 0;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black;
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder; 
+    border-width: 0.45em;
   }
 
 a {
@@ -159,10 +166,72 @@ a {
 .sidebar-1 {
     padding-top: 20px;
     padding-bottom: 0px;
-    padding-left: 40px;
+    padding-left: 15px;
     background-color: hwb(34 60% 13%);  
     line-height: 10px;
-    display: inline-block;
+    display:none;
+}
+
+.sidebar-2 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    background-color: hwb(34 60% 13%);  
+    line-height: 10px;
+    display: ;
+}
+
+.sidebar-3 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    background-color: hwb(34 60% 13%);  
+    line-height: 10px;
+    display: ;
+}
+
+.sidebar-4 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    background-color: hwb(34 60% 13%);  
+    line-height: 10px;
+    display: ;
+}
+.sidebar-5 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    background-color: hwb(34 60% 13%);  
+    line-height: 10px;
+    display: ;
+}
+
+.sidebar-6 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    background-color: hwb(34 60% 13%);  
+    line-height: 10px;
+    display: ;
+}
+
+.sidebar-7 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    background-color: hwb(34 60% 13%);  
+    line-height: 10px;
+    display: ;
+}
+
+.sidebar-8 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    background-color: hwb(34 60% 13%);  
+    line-height: 10px;
+    display: ;
 }
 
 .btnDescription {
@@ -171,10 +240,11 @@ a {
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black;
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: larger;
+    border-width: 0.45em;
 }
 
 .btnTitle {
@@ -183,10 +253,11 @@ a {
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black;
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: larger;
+    border-width: 0.45em;
 }
 
 .btnStructure{
@@ -195,10 +266,11 @@ a {
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black;
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: larger;
+    border-width: 0.45em;
 }
 
 .btnHTMLTABLE {
@@ -207,10 +279,11 @@ a {
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black;
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: larger;
+    border-width: 0.45em;
 }
 
 .btnHTMLLIST {
@@ -219,10 +292,11 @@ a {
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black;
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: larger;
+    border-width: 0.45em;
 }
 
 .btnHTMLIMAGE {
@@ -231,10 +305,11 @@ a {
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black;
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: larger;
+    border-width: 0.45em;
 }
 
 .btnSummery {
@@ -243,12 +318,10 @@ a {
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: black;
+    border-color: rgb(151, 115, 49);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: larger;
+    border-width: 0.45em;
 }
 
-.btnDescription1 {
-display: inline;;
-}
