@@ -21,7 +21,6 @@
     height: 20vh;
     padding-right: 70px;
     padding-top: 10px;
-    margin-right: 0px;
 }
 
 .line::after {
@@ -38,18 +37,24 @@
 }
 
 .main-menu {
-    background-color:rgba(95, 67, 25, 0.808);
+    background-color:rgba(184, 153, 103, 0.808);
     padding-top: 10px;
     padding-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding-right: 10px;
     padding-left: 10px;
     width: 100%;
     flex-wrap: wrap; /* Дозволяємо переносити кнопки на новий рядок */
     gap: 20px; /* Відступ між сайдбаром та контентом */
+    display: flex;
 }
+
+/* Стилі для основного контенту */
+.main {
+  display: flex; /* Використовуємо flexbox */
+  gap: 20px; /* Відступ між сайдбаром та контентом */
+  background-color:hwb(34 55% 18%);  
+}
+
 
 /* Медіа-запит для планшетів та більших екранів */
 @media (min-width: 768px) {
@@ -63,113 +68,107 @@
   }
 }
 
-
 .button11 {
-    background-color: hwb(39 36% 19%); 
+    background-color: hwb(27 59% 9%);  
     border-radius: 20px;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: rgb(151, 115, 49);
+    border-color: rgb(184, 152, 122);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     border-width: 0.45em;
 }
 
 .button12 {
-    background-color: hwb(39 36% 19%);  
+    background-color: hwb(27 59% 9%);    
     border-radius: 20px;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: rgb(151, 115, 49);
+    border-color: rgb(184, 152, 122);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     border-width: 0.45em;  
   }
   
   .button21 {
-    background-color: hwb(39 36% 19%);  
+    background-color: hwb(27 59% 9%);  
     border-radius: 20px;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: rgb(151, 115, 49);
+    border-color: rgb(184, 152, 122);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     border-width: 0.45em;  
   }
 
   .button22 {
-    background-color: hwb(39 36% 19%);  
+    background-color: hwb(27 59% 9%);    
     border-radius: 20px;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: rgb(151, 115, 49);
+    border-color: rgb(184, 152, 122);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     border-width: 0.45em; 
   }
 
   .button31 {
-    background-color: hwb(39 36% 19%);  
+    background-color: hwb(27 59% 9%);      
     border-radius: 20px;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: rgb(151, 115, 49);
+    border-color: rgb(184, 152, 122);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     border-width: 0.45em;  
   }
 
   .button32 {
-    background-color: hwb(39 36% 19%);  
+    background-color: hwb(27 59% 9%);  
     border-radius: 20px;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: rgb(151, 115, 49);
+    border-color: rgb(184, 152, 122);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     border-width: 0.45em; 
   }
 
   .button41 {
-    background-color: hwb(39 36% 19%); 
+    background-color: hwb(27 59% 9%);   
     border-radius: 20px;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: rgb(151, 115, 49);
+    border-color: rgb(184, 152, 122);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     border-width: 0.45em; 
   }
 
   .button42 {
-    background-color: hwb(39 36% 19%); 
+    background-color: hwb(27 59% 9%);  
     border-radius: 20px;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: rgb(151, 115, 49);
+    border-color: rgb(184, 152, 122);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder; 
     border-width: 0.45em;
   }
 
-a {
-    margin-right: 0px;
-    margin-right: 0px;
-    background-color: hwb(34 60% 13%);
-}
-
 .sidebar {
     padding-top: 20px;
     padding-bottom: 31px;
     padding-left: 15px;
+    padding-right: 10px;
     background-color: hwb(34 60% 13%);  
     line-height: 10px;
     height: 800px;
@@ -190,14 +189,20 @@ a {
   }
 }
 
+/* Стилі для сайдбару */
+.sidebar {
+  width: 30%; /* Ширина сайдбару */
+  background-color: hwb(34 60% 13%);  
+  padding: 20px; /* Внутрішні відступи */
+}
 
 .btnDescription {
-    background-color: hwb(39 36% 19%);  
+    background-color: hwb(27 59% 9%);  
     border-radius: 20px;
     font-size: medium;
     min-height: 50px;
     min-width: 120px;
-    border-color: rgb(151, 115, 49);
+    border-color: rgb(184, 152, 122);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: larger;
@@ -209,8 +214,12 @@ a {
   width: 59%; /* Ширина контенту */
   padding: 20px; /* Внутрішні відступи */
   float: right;
+
 }
 
+ a {
+  color: rgb(185, 24, 72);
+}
 /* Стилі для елементів контенту */
 .content-item {
   display: none; /* Ховаємо контент за замовчуванням */
