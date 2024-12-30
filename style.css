@@ -9,7 +9,7 @@
     display:block;
     padding-left: 5px;
     padding-right: 5px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     padding-top: 5px;
     font-weight: 600;
     line-height: 20px;
@@ -40,9 +40,8 @@
     background-color:rgba(184, 153, 103, 0.808);
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    width: 100%;
+    padding-left: 360px;
+    padding-right: 100px; 
     flex-wrap: wrap; /* Дозволяємо переносити кнопки на новий рядок */
     gap: 20px; /* Відступ між сайдбаром та контентом */
     display: flex;
@@ -68,7 +67,7 @@
   }
 }
 
-.button11 {
+.button1 {
     background-color: hwb(27 59% 9%);  
     border-radius: 20px;
     font-size: medium;
@@ -80,7 +79,7 @@
     border-width: 0.45em;
 }
 
-.button12 {
+.button2 {
     background-color: hwb(27 59% 9%);    
     border-radius: 20px;
     font-size: medium;
@@ -92,7 +91,7 @@
     border-width: 0.45em;  
   }
   
-  .button21 {
+  .button3 {
     background-color: hwb(27 59% 9%);  
     border-radius: 20px;
     font-size: medium;
@@ -104,7 +103,7 @@
     border-width: 0.45em;  
   }
 
-  .button22 {
+  .button4 {
     background-color: hwb(27 59% 9%);    
     border-radius: 20px;
     font-size: medium;
@@ -116,62 +115,14 @@
     border-width: 0.45em; 
   }
 
-  .button31 {
-    background-color: hwb(27 59% 9%);      
-    border-radius: 20px;
-    font-size: medium;
-    min-height: 50px;
-    min-width: 120px;
-    border-color: rgb(184, 152, 122);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    border-width: 0.45em;  
-  }
-
-  .button32 {
-    background-color: hwb(27 59% 9%);  
-    border-radius: 20px;
-    font-size: medium;
-    min-height: 50px;
-    min-width: 120px;
-    border-color: rgb(184, 152, 122);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    border-width: 0.45em; 
-  }
-
-  .button41 {
-    background-color: hwb(27 59% 9%);   
-    border-radius: 20px;
-    font-size: medium;
-    min-height: 50px;
-    min-width: 120px;
-    border-color: rgb(184, 152, 122);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    border-width: 0.45em; 
-  }
-
-  .button42 {
-    background-color: hwb(27 59% 9%);  
-    border-radius: 20px;
-    font-size: medium;
-    min-height: 50px;
-    min-width: 120px;
-    border-color: rgb(184, 152, 122);
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder; 
-    border-width: 0.45em;
-  }
-
 .sidebar {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 31px;
     padding-left: 15px;
     padding-right: 10px;
     background-color: hwb(34 60% 13%);  
     line-height: 10px;
-    height: 800px;
+    height: 1050px;
 }
 
 .sidebar-content {
@@ -193,7 +144,7 @@
 .sidebar {
   width: 30%; /* Ширина сайдбару */
   background-color: hwb(34 60% 13%);  
-  padding: 20px; /* Внутрішні відступи */
+  padding: 10px; /* Внутрішні відступи */
 }
 
 .btnDescription {
@@ -214,7 +165,6 @@
   width: 59%; /* Ширина контенту */
   padding: 20px; /* Внутрішні відступи */
   float: right;
-
 }
 
  a {
